@@ -20,3 +20,8 @@ As well as several key features:
 - Search engine optimization (SEO): The website will be optimized for search engines, including keyword research, metadata optimization, and other SEO best practices, to increase visibility and attract more customers.
 - Google Maps integration: The website will feature a Google Maps integration, making it easy for customers to find Kopi Kount's location and get directions.
 - Inquiry management system: We will create a functional backend for the Services/Events/Catering page, allowing visitors to submit inquiries and enabling the owners to manage and respond to those inquiries efficiently.
+
+
+## TODO 
+- TBA
+- Test Commit

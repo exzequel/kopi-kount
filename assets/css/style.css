@@ -1222,6 +1222,7 @@ section {
 }
 
 .book-a-table .php-email-form input,
+.book-a-table .php-email-form select,
 .book-a-table .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
@@ -1232,21 +1233,25 @@ section {
 }
 
 .book-a-table .php-email-form input::-moz-placeholder,
+.book-a-table .php-email-form select::-moz-placeholder,
 .book-a-table .php-email-form textarea::-moz-placeholder {
   color: #a49b89;
 }
 
 .book-a-table .php-email-form input::placeholder,
+.book-a-table .php-email-form select::placeholder,
 .book-a-table .php-email-form textarea::placeholder {
   color: #a49b89;
 }
 
 .book-a-table .php-email-form input:focus,
+.book-a-table .php-email-form select:focus,
 .book-a-table .php-email-form textarea:focus {
   border-color: #cda45e;
 }
 
-.book-a-table .php-email-form input {
+.book-a-table .php-email-form input,
+.book-a-table .php-email-form select {
   height: 44px;
 }
 
@@ -1266,6 +1271,24 @@ section {
 .book-a-table .php-email-form button[type=submit]:hover {
   background: #d3af71;
 }
+
+select.form-control {
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1545,6 +1568,7 @@ section {
 }
 
 .contact .php-email-form input,
+.contact .php-email-form select,
 .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
@@ -1555,21 +1579,25 @@ section {
 }
 
 .contact .php-email-form input::-moz-placeholder,
+.contact .php-email-form select::-moz-placeholder,
 .contact .php-email-form textarea::-moz-placeholder {
   color: #a49b89;
 }
 
 .contact .php-email-form input::placeholder,
+.contact .php-email-form select::placeholder,
 .contact .php-email-form textarea::placeholder {
   color: #a49b89;
 }
 
 .contact .php-email-form input:focus,
+.contact .php-email-form select:focus,
 .contact .php-email-form textarea:focus {
   border-color: #cda45e;
 }
 
-.contact .php-email-form input {
+.contact .php-email-form input,
+.contact .php-email-form select {
   height: 44px;
 }
 
@@ -1608,6 +1636,26 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* Bookings */
+
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 4px;
+  color: #aaa;
 }
 
 /*--------------------------------------------------------------

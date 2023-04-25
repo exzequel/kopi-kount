@@ -931,7 +931,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Coffee Cart</h3>
                   <div class="price">
-                    <p><a href="https://www.facebook.com/kopikountpalpitatemoderately"><span>Inquire Now.</span></a></p>
+                    <p><a href="#events-form"><span><i>Schedule</i></span></a></p>
                   </div>
                    <p class="fst-italic">
                     Kopi Kount's Coffee Cart brings caffeine and convenience to any event – weddings, corporate functions, and more. Customizable packages and a wide range of coffee and tea options available. Contact us today to make your event a success!
@@ -956,7 +956,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Birthday Parties</h3>
                   <div class="price">
-                    <p><a href="https://www.facebook.com/kopikountpalpitatemoderately"><span>Inquire Now.</span></a></p>
+                    <p><a href="#events-form"><span><i>Schedule</i></span></a></p>
                   </div>
                   <p class="fst-italic">
                     Celebrate your birthday with Kopi Kount's catering service! We offer a wide range of delicious food and drink options and can customize a menu to fit your budget and party theme. Contact us today to start planning the perfect party.
@@ -981,7 +981,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Private Parties</h3>
                   <div class="price">
-                    <p><a href="https://www.facebook.com/kopikountpalpitatemoderately"><span>Inquire Now.</span></a></p>
+                    <p><a href="#events-form"><span><i>Schedule</i></span></a></p>
                   </div>
                   <p class="fst-italic">
                     Host your next private party with Kopi Kount's catering service. We offer customizable menus, a wide range of delicious food and drink options, and various private party packages to suit your needs. Let us help you plan the perfect celebration – contact us today!
@@ -1006,7 +1006,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Custom Parties</h3>
                   <div class="price">
-                    <p><a href="https://www.facebook.com/kopikountpalpitatemoderately"><span>Inquire Now.</span></a></p>
+                    <p><a href="https://www.facebook.com/kopikountpalpitatemoderately"><span><i>Schedule</i></span></a></p>
                   </div>
                    <p class="fst-italic">
                     Kopi Kount's catering service is perfect for custom parties – baby showers, bridal showers, anniversaries, and more. We offer a wide range of food and drink options and can customize a menu to fit your budget and party theme. Contact us today to start planning your perfect celebration.
@@ -1025,10 +1025,91 @@
 
           </div>
           <div class="swiper-pagination"></div>
-        </div>
-
       </div>
     </section><!-- End Events Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events-form" class="contact">
+      <div class="container" data-aos="fade-up">
+    
+      <div class="section-title">
+          <h2>Event Bookings</h2>
+          <p>Book Your Next Event With Kopi Kount</p>
+        </div>
+      </div>
+    
+      <div class="container"  data-aos="fade-up">
+        <div class="row mt-5 ">
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <form action="event-forms.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="phone">Phone Number</label>
+                <input type="phone" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" required>
+              </div>
+              <div class="form-group mt-3">
+                <label for="event-style">Event Style</label>
+                <select class="form-control" name="event-style" id="event-style" required>
+                  <option value="" disabled selected>Select Your Desired Event Style</option>
+                  <option value="on-premise">On-Premise</option>
+                  <option value="drop-off-catering">Drop-off Catering</option>
+                  <option value="pick-up-catering">Pick-up Catering</option>
+                  <option value="full-service-catering">Full Service Catering</option>
+                </select>
+              </div>
+              <div class="form-group mt-3">
+                <label for="event-nature">Nature of Event</label>
+                <input type="text" class="form-control" name="event-nature" id="event-nature"
+                  placeholder="Nature of Your Event (e.g., Wedding, Baby Shower, Birthday Party etc.)" required>
+              </div>
+              <div class="form-group mt-3">
+                <label for="event-date">Event Date</label>
+                <input type="date" name="event-date" class="form-control" id="event-date" required>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="start-time">Start Time</label>
+                  <input type="time" name="start-time" class="form-control" id="start-time" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <label for="end-time">End Time</label>
+                  <input type="time" name="end-time" class="form-control" id="end-time" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="num-people">Number of People</label>
+                <input type="number" class="form-control" name="num-people" id="num-people"
+                  placeholder="Number of People in Your Event" required>
+              </div>
+              <div class="form-group mt-3">
+                <label for="message">Additional Information</label>
+                <textarea class="form-control" name="message" rows="8"
+                  placeholder="Additional Information"></textarea>
+              </div>
+              <!-- 
+              <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div> 
+              -->
+              <div class="text-center"><button type="submit">PLAN YOUR NEXT EVENT</button></div>
+            </form>
+          </div>
+    
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
 
     <!-- ======= Testimonials Section ======= -->
     <!-- TO DO: Update Testimonials Content
@@ -1407,7 +1488,7 @@
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div> -->
               
-              <div class="text-center"><button type="submit" >Send Message</button></div>
+              <div class="text-center"><button type="submit" >GET IN TOUCH</button></div>
               
             </form>
 

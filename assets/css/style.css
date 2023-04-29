@@ -460,7 +460,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/kopi-hero.png") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -768,7 +768,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  background: url("../img/V2_KOPI.png") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -868,6 +868,7 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
